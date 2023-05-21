@@ -43,11 +43,11 @@ main {
 
 .img1 {
   height: 150px;
-    width:100%;
+  width:100%;
   background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .img2 {
@@ -65,7 +65,7 @@ main {
   background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
-    object-fit: cover;
+  object-fit: cover;
 }
 
 
@@ -92,5 +92,9 @@ main{
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.step:last-child{
+  margin-right:auto;
 }
 }
